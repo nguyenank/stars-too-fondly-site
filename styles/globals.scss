@@ -1,0 +1,49 @@
+$nightsky: #0b1026;
+$link: #2b314a;
+$star: #f5f0e5;
+$text: #f8f8fa;
+
+body {
+    background-color: $nightsky;
+    color: $text;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+a {
+    color: $star;
+    &:hover {
+        color: #2b314a;
+    }
+}
+
+.constellation {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    height: 50vh;
+    padding: 0 1rem;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: $star;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+hr {
+    color: $star;
+    width: 75%;
+    margin-top: 2rem;
+}
