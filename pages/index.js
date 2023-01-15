@@ -21,8 +21,8 @@ export default function Home({ constellations }) {
             <header>
                 <h1>Stars Too Fondly</h1>
                 <p>
-                    Matching each constellation to a Dallas Stars player's shot
-                    map.
+                    Matching each constellation to a Dallas Stars player&apos;s
+                    shot map.
                 </p>
                 <p>
                     Inspired by and implementation heavily drawn from Nebra Shot
