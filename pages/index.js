@@ -17,12 +17,28 @@ export default function Home({ constellations }) {
                     content="width=device-width, initial-scale=1"
                 />
                 <link rel="icon" href="/favicon.ico" />
+                <script
+                    defer
+                    data-domain="stars-too-fondly.netlify.app"
+                    src="https://plausible.io/js/script.js"
+                ></script>
             </Head>
             <header>
                 <h1>Stars Too Fondly</h1>
-                <p>
+                <h2>
                     Matching each constellation to a Dallas Stars player&apos;s
                     shot map.
+                </h2>
+                <p>
+                    (
+                    <a href="https://github.com/nguyenank/stars-too-fondly">
+                        matching code
+                    </a>{" "}
+                    |{" "}
+                    <a href="https://github.com/nguyenank/stars-too-fondly-site">
+                        website code
+                    </a>
+                    )
                 </p>
                 <p>
                     Inspired by and implementation heavily drawn from Nebra Shot
@@ -38,8 +54,9 @@ export default function Home({ constellations }) {
                     <a href="https://www.youtube.com/watch?v=lHRcOQBDSKI&feature=youtu.be">
                         video
                     </a>
-                    ) by Ben Torvaney, doing a similar idea for football.
+                    ) by Ben Torvaney.
                 </p>
+                <p>Last updated January 20th, 2023.</p>
                 <hr />
             </header>
             <main>
